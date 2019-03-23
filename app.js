@@ -19,7 +19,7 @@ app.post('/print', (req, res) => {
       cwd: path.join(__dirname, "scripts")
     }
   );
-  res.send('success!');
+  res.send("success");
 })
 
 let port = process.env.PORT || 8080;
